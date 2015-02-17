@@ -1,0 +1,22 @@
+<div>
+
+  <% if @new_game %>
+    <a href = '/play'>New Game</a>
+  <% end %>
+
+  <% if @player %>
+
+    <h4>What's your name?</h4>
+    <form action="/hello">
+    <input type="text" name="name">
+    <input type="submit">
+    </form>
+
+  <% end %>
+
+  <% if @name %>
+    Hello, <%= @name %>!
+  <% end %>
+
+</div>
+
