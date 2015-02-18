@@ -4,4 +4,4 @@ Battleships is guessing game for for two players which dates from World War I. I
 
 This is an online version of the Battleships Game. 
 
-![alt tag](http://www.hasbro.com/common/productimages/en_US/2b9a34675056900b10c24c1b9787fbb4/2B9B9B5C5056900B103EB607D09A7C7D.jpg)
+![alt tag](http://www.hasbro.de/battleship/images/web_37083Battleship.jpg)
