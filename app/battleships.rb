@@ -9,12 +9,12 @@ class Battleships < Sinatra::Base
     erb :index
   end
 
-  get '/play' do
+  get '/name' do
     @player = ""
     erb :index
   end
 
-  get '/hello' do
+  get '/play' do
     @name = params[:name]
     erb :index
   end
