@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Battleships Web!</title>
+</head>
+
+<body>
 <div>
 
   <% if @new_game %>
@@ -5,13 +12,11 @@
   <% end %>
 
   <% if @player %>
-
     <h4>What's your name?</h4>
     <form action="/hello">
     <input type="text" name="name">
     <input type="submit">
     </form>
-
   <% end %>
 
   <% if @name %>
@@ -19,4 +24,5 @@
   <% end %>
 
 </div>
+</body>
 
